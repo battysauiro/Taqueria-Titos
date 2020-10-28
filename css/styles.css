@@ -1,0 +1,71 @@
+/**globales **/
+html{
+    font-size:62.5%; 
+}
+
+body{
+    font-size: 1.6rem;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+
+/*header*/
+
+.img_internal{
+    background-image: url(../img/headerB.jpg);
+    background-position: center center;
+    background-size: cover;
+    height:100vh;
+    min-height: 40rem;
+}
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+.navegacion a:hover{
+    color: indigo;
+}
+
+.navegacion a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 3.5rem;
+}
+
+.main_ordenar{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 20rem;
+    padding: 0.4rem 2rem;
+    border-radius: 20rem;
+    color: #4b4b4b;
+}
+
+
+.main_ordenar a::before{
+    content:url(../img/iconos/phone-square-alt-solid.svg);
+    width: 2rem;
+    display:inline-block; 
+    padding-right: 1rem;
+    
+}
+
+.main_ordenar a{
+    color: #4b4b4b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
