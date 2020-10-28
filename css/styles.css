@@ -43,6 +43,11 @@ body{
     margin-right: 3.5rem;
 }
 
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
 .main_ordenar{
     display: flex;
     flex-direction: column;
@@ -68,4 +73,26 @@ body{
     font-weight: bold;
     font-size: 2rem;
 }
+
+.menu-user{
+    background-color: white;
+    width: 14rem;
+    padding: 1rem 2rem;
+    border-radius: 20rem;
+}
+
+.navegacion-user a:hover{
+    background-color: green;
+}
+.navegacion-user a{
+    
+  
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-right: 1.2rem;
+    border-radius: 50%;
+    padding: 0.4rem 0.3rem;
+}
+
+
 
