@@ -6,6 +6,7 @@
     <title>Taqueria Tittos</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
     <div class="img_internal">
@@ -37,6 +38,40 @@
                             <a href=""><i class="fas fa-search" style="color: black;"></i></a>
                         </nav>
                     </div>
+                </div>
+                <div class="imagenes-main">
+                    <div class="slides">
+                        
+                        <img src="img/slideshow/taco1.png" alt="tacoslidesshow">
+                        <img src="img/slideshow/taco3.png" alt="tacoslidesshow">
+                        <img src="img/slideshow/taco4.png" alt="tacoslidesshow">
+                        
+                    </div>
+                    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+                    <script src="js/jquery.slides.js"></script>
+                    <script>
+                       $(function(){
+                        $(".slides").slidesjs({
+                            play: {
+                            active: false,
+                                // [boolean] Generate the play and stop buttons.
+                                // You cannot use your own buttons. Sorry.
+                            effect: "fade",
+                                // [string] Can be either "slide" or "fade".
+                            interval: 5000,
+                                // [number] Time spent on each slide in milliseconds.
+                            auto: true,
+                                // [boolean] Start playing the slideshow on load.
+                            swap: false,
+                                // [boolean] show/hide stop and play buttons
+                            pauseOnHover: false,
+                                // [boolean] pause a playing slideshow on hover
+                            restartDelay: 5000
+                                // [number] restart delay on inactive slideshow
+                            }
+                        });
+                        });
+                    </script> 
                 </div>
             </div>
         </header>
@@ -93,4 +128,5 @@
         </div>
     </footer>
 </body>
+
 </html>
