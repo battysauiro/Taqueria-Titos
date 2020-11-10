@@ -105,10 +105,17 @@ body{
     width: 50%;
   height: auto;
 }
+
+
 .slides .active{
     background-color: purple;
 }
 
+.text{
+    display: flex;
+    justify-content: space-between;
+    background-color: hotpink;
+}
 .slidesjs-pagination{
    list-style: none;
    display: flex;
@@ -133,9 +140,6 @@ body{
     background-color: purple;
 }
 
-.slidesjs-navigation{
-    ba
-}
 
 
 
