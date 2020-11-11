@@ -6,9 +6,16 @@
     <title>Taqueria Tittos</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- materialize.js-->
     <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    
+    
     <link rel="stylesheet" href="css/fonts.css">
+    
 </head>
 <body>
     <div class="img_internal">
@@ -41,43 +48,43 @@
                         </nav>
                     </div>
                 </div>
-                <div class="imagenes-main">
-                    <div class="slides">
-                        <div class="text">
-                            <div><h1>hola</h1></div>
-                            <div><img src="img/slideshow/taco1.png" alt="tacoslidesshow"></div>
-                        </div>
-                        <img src="img/slideshow/taco3.png" alt="tacoslidesshow">
-                        <img src="img/slideshow/taco4.png" alt="tacoslidesshow">
-                        
-                    </div>
-                    
-                    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-                    <script src="js/jquery.slides.js"></script>
-                    <script>
-                       $(function(){
-                        $(".slides").slidesjs({
-                            play: {
-                            active: false,
-                                // [boolean] Generate the play and stop buttons.
-                                // You cannot use your own buttons. Sorry.
-                            effect: "fade",
-                                // [string] Can be either "slide" or "fade".
-                            interval: 5000,
-                                // [number] Time spent on each slide in milliseconds.
-                            auto: true,
-                                // [boolean] Start playing the slideshow on load.
-                            swap: false,
-                                // [boolean] show/hide stop and play buttons
-                            pauseOnHover: false,
-                                // [boolean] pause a playing slideshow on hover
-                            restartDelay: 5000
-                                // [number] restart delay on inactive slideshow
-                            }
-                        });
-                        });
-                        
-                    </script> 
+                <div class="container">
+                   <div class="row">
+                       <div class="col s12">
+                           <h1  class="center-align titulo">¿Qué se te antoja hoy?</h1>
+                           <div class="carousel center-align">
+                               <div class="carousel-item center-align">
+                                    <h2 class="subtitulo">tacossss</h2>
+                                   
+                                    <p class="sabor">cecina,tasajo,cabeza</p>
+                                    <a href="ordene ahoraaaaa" class="boton">ordene ahoraa</a>
+                                    <img src="img/tacos.jpg" alt="">
+                                    
+                                </div>
+                                <div class="carousel-item center-align">
+                                    <h2 class="subtitulo">tortaaass</h2>
+                                   
+                                    <p class="sabor">cecina,tasajo,cabeza</p>
+                                    <img src="img/tlayuda.jpg" alt="">
+                                
+                                </div>
+                                <div class="carousel-item center-align">
+                                    <h2 class="subtitulo">tortaaass</h2>
+                                   
+                                    <p class="sabor">cecina,tasajo,cabeza</p>
+                                    <img src="img/tostada_tasajo.jpg" alt="">
+                                
+                                </div>
+                                <div class="carousel-item center-align">
+                                    <h2 class="subtitulo">tortaaass</h2>
+                                   
+                                    <p class="sabor">cecina,tasajo,cabeza</p>
+                                    <img src="img/tacos.jpg" alt="">
+                                
+                                </div>
+                           </div> 
+                       </div>
+                   </div>
                 </div>
             </div>
         </header>
@@ -105,6 +112,7 @@
             <a href="">Mas opciones</a>
         </main>    
     </section>
+    
     <footer>
         <div><!--contenedor -->
             <div><!-- menu 1-->
@@ -133,6 +141,9 @@
             </div>
         </div>
     </footer>
+    <!--materialize.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
