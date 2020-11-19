@@ -428,3 +428,31 @@ img{
   margin-top: 2rem;
   
 }
+
+.contenedor-horarios a:hover{
+  color:yellow;
+}
+
+/* nosotros */
+
+.contenedor-nosotros{
+  display: flex;
+  
+}
+.imagen-nosotros{
+  flex-basis: calc(60% - 1rem);
+  
+}
+.imagen-nosotros img{
+  border-radius: 1rem;
+}
+
+.texto-nosotros{
+  flex-basis: calc(40%);
+  text-align: justify;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #ff9234;
+  color: black;
+  
+}
