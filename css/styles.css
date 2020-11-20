@@ -288,6 +288,7 @@ img{
 
 /*contenedor productos */
 .conetenedor-productos{
+  /* flex-wrap: wrap; */
   display: flex;
   justify-content: space-between;
   margin: 2rem;
@@ -370,6 +371,7 @@ img{
   background-color: white;
   color: black;
   padding: 0.5rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
   font-weight: bold;
@@ -435,10 +437,7 @@ img{
 
 /* nosotros */
 
-.contenedor-nosotros{
-  display: flex;
-  
-}
+
 .imagen-nosotros{
   flex-basis: calc(60% - 1rem);
   
@@ -448,11 +447,19 @@ img{
 }
 
 .texto-nosotros{
-  flex-basis: calc(40%);
+  flex-basis: calc(37%);
   text-align: justify;
   font-size: 2rem;
   font-family: 'Times New Roman', Times, serif;
   background-color: #ff9234;
   color: black;
   
+}
+
+/* pagina principal de alimentos */
+.lista-platillos{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1rem;
 }
