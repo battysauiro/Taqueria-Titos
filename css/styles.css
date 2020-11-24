@@ -294,8 +294,10 @@ img{
   margin: 2rem;
 }
 .producto{
-  flex-basis: calc(25% - 1rem);
-  
+  /* flex-basis: calc(25% - 1rem); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-width: 0.3rem;
   background-color: rgb(75, 232, 11); /*lightgreen  lightsalmon 00ff40*/
   border-radius: 1rem;
@@ -327,21 +329,28 @@ img{
 }
 
 .contenedor-tipoOrden{
-  display: flex;
-  margin-top: 1rem;
-  margin-left: 0.5rem;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  justify-content: space-between;
+
+  
+  
 }
+
+
 .tipo-orden{
   
-  padding: 0.4rem 2rem;
+  padding: 0.4rem 0.7rem;
   border: solid;
   border-width: 0.1rem;
   color: white;
   margin-right: 0.5rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   border-radius: 10rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   background-color:red;
 
 }
@@ -383,7 +392,7 @@ img{
   background-color:#ff9234; /*ff9234 */
   border: solid;
   border-width: 0.1rem;
-  border-color: b;
+  border-left: 1rem;
   color: black;
   font-weight: bolder;
   
@@ -391,8 +400,16 @@ img{
   
 }
 
+.boton-orden{
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .border-radius-img img{
   border-radius: 1rem;
+  
 }
 
 /*footer */
@@ -462,4 +479,19 @@ img{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 1rem;
+}
+
+/* formulario  */
+
+input{
+  
+  
+
+  border-radius: 0.5rem;
+  width: 4rem;
+  background-color:#ff9234; /*ff9234 */
+  border: solid;
+  border-width: 0.1rem;
+  color: black;
+  font-weight: bolder;
 }
